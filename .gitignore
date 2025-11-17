@@ -301,6 +301,11 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+# Python virtual environments
+.venv/
+venv/
+env/
+
 # Visual Studio 6 build log
 *.plg
 
@@ -419,3 +424,4 @@ FodyWeavers.xsd
 
 #Dist
 dist/
+src/backend/package-lock.json

@@ -45,12 +45,12 @@ export function ZavaChatbot({ defaultOpen = true }: ChatbotProps) {
 
   const suggestedMessages = [
     {
-      text: "What's the main difference between the Elite and Speed cleats?",
+      text: "What are the top 3 features of the Elite cleats?",
       label: "Simple scenario",
       tooltip: "Information available in knowledge base"
     },
     {
-      text: "I'm thinking about cancelling my membership. Do you even know why I'm so annoyed?",
+      text: "I'm thinking about cancelling my membership. Give me three good reasons why I should not cancel?",
       label: "Complex scenario",
       tooltip: "Requires reasoning across membership history, spend patterns, cancellation drivers, and prior support interactions to address the underlying frustration before responding."
     }
